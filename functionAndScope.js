@@ -51,3 +51,46 @@ promiseOne.then(function(){
     console.log('promise consumed');
     
 })
+
+/*6.What is the purpose of the `bind()`, `call()`, and `apply()` methods?
+    dont know what are this methods
+ */
+
+/*7.What is currying in JavaScript?
+    function is transformed into a series of functions that each take a single argument. 
+    Each function returns another function that accepts the next argument,
+ */
+
+/*8.How does lexical scoping work in JavaScript?
+    the scope of a variable is determined by its position not an by the flow of execution
+ */
+function outerFunction() {
+    const outerVar = "I'm from the outer function";
+  
+    function innerFunction() {
+      console.log(outerVar); // Can access outerVar due to lexical scoping
+    }
+  
+    innerFunction();
+  }
+  
+  outerFunction(); // Output: I'm from the outer function
+
+/*9.What is the purpose of the `new` keyword in JavaScript?
+  new keyword is use to creating a new instance of an object in js
+ */
+
+/*10.Can you explain IIFE (Immediately Invoked Function Expression)?
+  function is define and executed immedietly after its creation
+*/
+(function(){
+    console.log('execute immedietly');
+    
+})()
+
+// ES6 = that means the features and syntax of js that can improves js language and make it more powerfull
+// eg. modules , promises, classes , arrow function
+  
+  
+  
+  
