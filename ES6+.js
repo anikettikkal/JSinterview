@@ -30,3 +30,13 @@ console.log(restName);
 console.log(rest);
 
 
+/*5.What are JavaScript modules, and how are they imported/exported?
+    JavaScript modules allow you to organize code into separate files for better reusability and maintainability. 
+    You can export parts of a module and import them in other files.
+    imported by using import aND EXported by using export
+
+    ex ; import home from 'Home.js'
+ */
+
+/*6.
+ */
