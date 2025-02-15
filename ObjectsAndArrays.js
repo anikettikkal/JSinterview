@@ -20,7 +20,7 @@ console.log(another['nametwo']);
  */
 /*3.How do you iterate over an object’s properties?
  */
-// by using keys and values pair
+// by using keys and values pair also object.entries
 
 // how to add symbol values in objects
 

@@ -38,5 +38,50 @@ console.log(rest);
     ex ; import home from 'Home.js'
  */
 
-/*6.
+/*6.What is the difference between `Map` and `Set` in ES6?
  */
+const mapExample = [1,2,3,4,5,6,7,8,9,10]
+const arrMap = mapExample.forEach(item => {
+    console.log(item);
+    
+});
+console.log(arrMap);
+
+const anoMap = mapExample.filter((item)=>{
+    return item>5
+    
+})
+console.log(anoMap);
+
+// map example
+let users = new Map();
+users.set(1, "Alice");
+users.set(2, "Bob");
+users.set(3, "Charlie");
+
+users.forEach((value, key) => {
+  console.log(`ID: ${key}, Name: ${value}`);
+});
+
+/*7.What is the difference between `async/await` and Promises?
+ */
+
+/*8.for of loop */
+const mainArr = [23,45,67,86,8,97,21]
+for(const member of mainArr){
+    console.log(member);
+    
+}
+for(const ele in mainArr){
+    console.log(ele);
+    console.log(mainArr[ele]);
+    
+}
+
+/*9.chaining example */
+const chainArr = mainArr.map((num)=>{
+    return num*10
+}).map((num)=>{
+    return num+1
+})
+console.log(chainArr);
